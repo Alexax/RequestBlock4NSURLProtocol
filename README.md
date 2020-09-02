@@ -48,7 +48,11 @@ pod 'ZXRequestBlock'
 [ZXRequestBlock enableHttpProxy];
 ```
 
+- 原理
+```
+        configuration.connectionProxyDictionary = @{};
 
+```
 
 
 
